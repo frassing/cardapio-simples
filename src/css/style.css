@@ -95,6 +95,7 @@ h3 {
     width: 210px;
     height: 200px;
     object-fit: cover;
+    
     border-radius: 12px;
     margin-bottom: 5px;
 }
@@ -145,20 +146,26 @@ footer {
 
 h4 {
     margin-bottom: 3px;
+    margin-top: 12px;
     font-size: 16px;
 }
 
 .cols {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: left;
+    gap: 10px;
+}
+
+.localizacao {
+    width: 250px;
 }
 
 .rodape ul {
     list-style-type: none;
     padding: 0;
-    margin-top: 15px;
+    margin-top: 7px;
 }
 
 .rodape li {
@@ -173,7 +180,20 @@ h4 {
     display: flex;
 }
 
-.rodape .creditos {
+.creditos {
+    text-align: right;
+}
+
+.creditos li {
+    font-size: 12px;
+}
+
+.creditos a {
+    text-decoration: none;
+    color: #1a9fa3;
+}
+
+.rodape .dev {
     text-align: center;
     font-size: 13px;
     margin-bottom: 10px;
@@ -182,8 +202,7 @@ h4 {
 .rodape .important {
     text-align: center;
     color: #1a9fa3;
-    margin-top: 10px;
-    padding-bottom: 8px;
+    margin-top: 13px;
 }
 
 .important a {
